@@ -312,6 +312,12 @@ footer.main a:hover {
 	margin: 0;
 }
 
+#russellwebsite {
+	text-shadow: 4px 6px 6px #e68713;
+	font-weight: 200;
+	
+}
+
 
 #credits {
 	background: url('../images/icon-apple.png') center left no-repeat;
