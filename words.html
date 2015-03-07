@@ -34,9 +34,48 @@
 
 <p>Check out my really comprehensibe heavy and powerful thing we call a <a href="www.google.com" target="_blank"><b>blog</b></a></p>
 
-
 			</div>
+
+			<div class="embedded-blogPost">
+
+			<script lang="php">
+			<?php 
+			/* Short and sweet */
+			define('WP_USE_THEMES', false);
+			require('./wp-blog-header.php');
+			?>							
+
+			<?php
+			require('http://preaprez.wordpress.com');
+			?>							
+
+
+
 			
+			<?php
+			$posts = get_posts('numberposts=10&order=ASC&orderby=post_title');
+			foreach ($posts as $post) : setup_postdata( $post ); ?>
+			<?php the_date(); echo "<br />"; ?>
+			<?php the_title(); ?>    
+			<?php the_excerpt(); ?> 
+			<?php
+			endforeach;
+			?>
+
+
+			<!-- Get the last 3 posts.-->
+			
+			<?php
+			global $post;
+			$args = array( 'posts_per_page' => 3 );
+			$myposts = get_posts( $args );
+			foreach( $myposts as $post ) :	setup_postdata($post); ?>
+			<a href="<?php the_permalink() ?>" rel="bookmark" title="Permanent Link to <?php the_title_attribute(); ?>"><?php the_title(); ?></a><br />
+			<?php endforeach; ?>
+
+			</script>
+			
+			</div>			
 			
 			
 		</div><!-- end container -->
