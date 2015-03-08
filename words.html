@@ -15,10 +15,8 @@
 		<!-- Modernizr allows HTML5 elements to work in older browsers: http://modernizr.com/ -->
 		<script src="js/modernizr.js"></script>
 
-				<!-- integrating wp blog -->
-		<?php 
-			require('./blog/wp-blog-header.php'); 
-		?>
+		<!-- WP widget -->		
+		<script type="text/javascript" src="http://widgets.wp.com/platform.js"></script>
 		
 		
 	</head>
@@ -42,7 +40,13 @@
 
 			</div>
 
-			<div id="blog"></div>			
+			<div id="blog">
+				
+			<a class="wordpress-timeline" href="http://en.blog.wordpress.com" data-theme="light" 
+				width="960" height="400" lang="en" data-show-gravatars="true">Recent Posts</a>	
+				
+				
+			</div>			
 			
 			
 		</div><!-- end container -->
@@ -50,6 +54,8 @@
 
 <script language="javascript" type="text/javascript" 
   src="design/footer.txt"></script>
+  
+  <script type="text/javascript" src="http://widgets.wp.com/platform.js"></script>
 
 
 		
