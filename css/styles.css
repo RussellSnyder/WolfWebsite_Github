@@ -12,7 +12,7 @@
 /* General */
 
 body {
-	background: #fbfbfb url('../images/bg-tile.gif') top left repeat;
+	background: #fbfbfb;
 	color: black;
 	-webkit-font-smoothing: antialiased;
 	text-rendering: optimizelegibility;
@@ -136,11 +136,36 @@ header hr{
 
 /* blog */
 
-#blog {
+.blogWindow {
 	width: 960px;
 	height: 400px;
-	border: 7px solid white;
-	border-bottom: 40px solid white;
+    margin: 0;
+    position: relative;
+}
+
+#blogContent {
+   position: absolute;
+    z-index: 1;
+    left: 0;
+    top: 0;
+
+	width: 960px;
+	height: 400px;
+
+}
+
+#blogBorder {
+
+    position: absolute;
+    z-index: 2;
+    left: 0;
+    top: 0;
+
+	width: 960px;
+	height: 400px;
+	
+	border: 9px solid orange;
+	
 }
 
 
