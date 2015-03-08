@@ -15,6 +15,12 @@
 		<!-- Modernizr allows HTML5 elements to work in older browsers: http://modernizr.com/ -->
 		<script src="js/modernizr.js"></script>
 
+				<!-- integrating wp blog -->
+		<?php 
+			require('./blog/wp-blog-header.php'); 
+		?>
+		
+		
 	</head>
 
 <!-- We have main Nav on top and side bar for music player.  -->
@@ -32,50 +38,11 @@
 				
 			<p>I say really cool and interesting things about stuff and things that you find interesting I find interesting too<p>
 
-<p>Check out my really comprehensibe heavy and powerful thing we call a <a href="www.google.com" target="_blank"><b>blog</b></a></p>
+<p>Here is my really awesome blog:</p>
 
 			</div>
 
-			<div class="embedded-blogPost">
-
-			<script lang="php">
-			<?php 
-			/* Short and sweet */
-			define('WP_USE_THEMES', false);
-			require('./wp-blog-header.php');
-			?>							
-
-			<?php
-			require('http://preaprez.wordpress.com');
-			?>							
-
-
-
-			
-			<?php
-			$posts = get_posts('numberposts=10&order=ASC&orderby=post_title');
-			foreach ($posts as $post) : setup_postdata( $post ); ?>
-			<?php the_date(); echo "<br />"; ?>
-			<?php the_title(); ?>    
-			<?php the_excerpt(); ?> 
-			<?php
-			endforeach;
-			?>
-
-
-			<!-- Get the last 3 posts.-->
-			
-			<?php
-			global $post;
-			$args = array( 'posts_per_page' => 3 );
-			$myposts = get_posts( $args );
-			foreach( $myposts as $post ) :	setup_postdata($post); ?>
-			<a href="<?php the_permalink() ?>" rel="bookmark" title="Permanent Link to <?php the_title_attribute(); ?>"><?php the_title(); ?></a><br />
-			<?php endforeach; ?>
-
-			</script>
-			
-			</div>			
+			<div id="blog"></div>			
 			
 			
 		</div><!-- end container -->
