@@ -212,7 +212,8 @@ iframe{
 #blog {
 	width: 960px;
 	height: 400px;
-	border: 7px solid black;
+	border: 7px solid white;
+	border-bottom: 40px solid white;
 }
 
 /* contact */
