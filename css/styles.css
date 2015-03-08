@@ -149,14 +149,16 @@ header hr{
     left: 0;
     top: 0;
 
+
 	width: 960px;
 	height: 400px;
 
 	
 	outline-style: solid;
-	outline-width: medium;
-	outline-color: blue;
+	outline-width: thick;
+	outline-color: #fbfbfb;
 	outline-offset: -1px;
+	
 		
 }
 
