@@ -134,10 +134,16 @@ header hr{
 
 /* words */
 
-.words a{
-	font-size: 110%;
-	text-decoration: underline;
+/* blog */
+
+#blog {
+	width: 960px;
+	height: 400px;
+	border: 7px solid white;
+	border-bottom: 40px solid white;
 }
+
+
 
 /* Works */
 
@@ -207,14 +213,6 @@ iframe{
 }
 
 
-/* blog */
-
-#blog {
-	width: 960px;
-	height: 400px;
-	border: 7px solid white;
-	border-bottom: 40px solid white;
-}
 
 /* contact */
 
