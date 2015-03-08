@@ -1,17 +1,12 @@
 /* ===============================
-   Author: Brad Hussey
-   Date:   September 22, 2013
+   Author: Russell Snyder
+   Date:   March 9, 2015
    
    Notes:
-   Hand coded for Build a Website
-   from Scratch with HTML & CSS
    
-   Colour Palette:
-   ---------------
-   Light Cream:		#f2f3ee
-   Orange:			#d17f38
-   Yellow:			#e8c04f
-   Brown:			#4b2707
+   Wolfgang is a great person and wonderful friend.
+   An extrodinary artist.  I am proud to be his friend.
+   
    =============================== */
 
 /* General */
@@ -211,6 +206,14 @@ iframe{
 	margin-right: 100px;
 }
 
+
+/* blog */
+
+#blog {
+	width: 960px;
+	height: 400px;
+	border: 7px solid black;
+}
 
 /* contact */
 
