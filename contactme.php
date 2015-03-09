@@ -3,7 +3,7 @@
 // get posted data into local variables
 $EmailFrom = Trim(stripslashes($_POST['EmailFrom'])); 
 $EmailTo = "sunflow@gmail.com";
-$Subject = "WebSiteMessage";
+$Subject = "WebSiteReferral";
 $Name = Trim(stripslashes($_POST['Name'])); 
 $Telephone = Trim(stripslashes($_POST['Telephone'])); 
 $Email = Trim(stripslashes($_POST['Email'])); 
@@ -18,7 +18,7 @@ if (!$validationOK) {
 }
 
 // prepare email body text
-$Body = "Wolf! Somebody contacted you through your website :-)";
+$Body = "Wolf Somebody contacted you through your website";
 $Body .= "\n";
 $Body .= "\n";
 $Body .= "Name: ";
@@ -32,9 +32,6 @@ $Body .= $Email;
 $Body .= "\n";
 $Body .= "Inquiry: ";
 $Body .= $Inquiry;
-$Body .= "\n";
-$Body .= "Love, ";
-$Body .= $Name;
 $Body .= "\n";
 
 // send email 
