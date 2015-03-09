@@ -236,6 +236,15 @@ iframe{
 
 /* contact */
 
+#email {
+	float: right;
+	margin-right: 35%;
+	margin-top: 3%;
+}
+
+#email b{
+	font-size: 150%;
+}
 form {
 	  font-family : inherit;
   font-size   : 100%;
@@ -252,7 +261,7 @@ input {
     box-shadow: 
       inset 0 0 8px  rgba(0,0,0,0.1),
             0 0 16px rgba(0,0,0,0.1); 
-    padding: 15px;
+    padding: 10px;
     background: rgba(255,255,255,0.5);
     margin: 0 0 10px 0;
 }
@@ -277,8 +286,14 @@ input {
 	font-size: 20px;
 }
 
-.contactform label{
+#contact-form p{
+margin-bottom: 0px;
+padding-bottom: 0px;
 	}
+	
+#submit{
+}
+
 
 /* Footer */
 

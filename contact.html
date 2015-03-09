@@ -17,31 +17,48 @@
 
 	</head>
 
-<!-- We have main Nav on top and side bar for music player.  -->
-
 	<body>
 
 
 <script language="javascript" type="text/javascript" 
   src="design/header.txt"></script>
 
-			
-			<div class="words">
+		<div class="contact">			
+			<div class="contact-header">
 				
 				<img src="images/contact.jpeg" alt="wires going in and out of a circuit box like an old telephone">
+			</div>
 
-<p><b>sunflow[at]gmail[dot]com</b></p>
+			<div id="email">			
+				<p>or send me an email: <br>
+					&nbsp; &nbsp; <b>sunflow[at]gmail[dot]com</b></p>
+			</div>
 
+			<div id="contact-form">
+				
+                                      <!-- Using Max's Form -->
+
+						<form method="POST" action="contact.php"> 
+						<p>Name:</p>
+						<input type="text" name="Name" placeholder="ex. John Lorranger"> 
+						<p>Telephone:</p> 
+						<input type="text" name="Telephone" placeholder="Country Code + xxx-xxxxx"> 
+						<p>Email: </p>
+						<input type="text" name="Email" placeholder="email@domain.com"> 
+						<p>Message:</p> 
+						<textarea name="Inquiry" COLS=40 ROWS=6 placeholder="Dear Wolfgang,"></textarea> 
+						<p id="submit"><input type="submit" name="submit" value="send~"></p>
+						</form> 
 
 			</div>
-			
-			
-			
-		</div><!-- end container -->
+
+
 
 
 <script language="javascript" type="text/javascript" 
   src="design/footer.txt"></script>
+
+		</div><!-- end contact -->
 
 
 		
