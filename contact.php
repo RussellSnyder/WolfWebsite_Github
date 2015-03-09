@@ -2,8 +2,8 @@
 
 // get posted data into local variables
 $EmailFrom = Trim(stripslashes($_POST['EmailFrom'])); 
-$EmailTo = "sherry@leichmansnyderlaw.com";
-$Subject = "WebSiteReferral";
+$EmailTo = "sunflow@gmail.com";
+$Subject = "WebSiteMessage";
 $Name = Trim(stripslashes($_POST['Name'])); 
 $Telephone = Trim(stripslashes($_POST['Telephone'])); 
 $Email = Trim(stripslashes($_POST['Email'])); 
