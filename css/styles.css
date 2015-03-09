@@ -38,6 +38,27 @@ margin-bottom: -50px;
 	size: 50px;
 }
 
+#logo:hover em {
+    text-decoration: blink;   
+}
+
+#langChoose {
+	float: right;
+	margin-left: 20px;	
+	
+}
+
+#langChoose a{
+	background-clip: content-box;
+	background-color: rgba(227, 215, 170, 0.45);
+	/* Safari 3-4, iOS 1-3.2, Android 1.6- */
+  -webkit-border-radius: 12px; 
+  	/* Firefox 1-3.6 */
+  -moz-border-radius: 12px; 
+  	/* Opera 10.5, IE 9, Safari 5, Chrome, Firefox 4, iOS 4, Android 2.1+ */
+  border-radius: 12px; 
+  
+}
 /* Typography */
 
 h1, h2 {
@@ -121,7 +142,7 @@ header nav ul {
 
 header nav ul li {
 	display: inline-block;
-	padding-right: 10px;
+	padding-right: 12px;
 	font-family: 'baskerville';
 
 }
