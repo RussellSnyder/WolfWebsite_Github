@@ -27,8 +27,15 @@ body {
 }
 
 #logo{
-
 margin-bottom: -50px;
+}
+
+#logo a{
+	text-decoration: none;
+}
+
+#logo h1:hover {
+	size: 50px;
 }
 
 /* Typography */
@@ -71,6 +78,9 @@ p.lead {
 p {
 }
 
+a {
+	text-decoration: none;
+}
 a:link {
 	color: black;
 	text-decoration: none;
