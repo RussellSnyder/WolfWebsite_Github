@@ -250,6 +250,10 @@ form {
   font-size   : 100%;
 }
 
+form br {
+	line-height: 50%;
+}
+
 input {
     border: 5px solid white; 
     -webkit-box-shadow: 
@@ -294,6 +298,14 @@ padding-bottom: 0px;
 #submit{
 }
 
+.error h2{
+	color: orange;
+	
+	text-overflow: clip;
+	
+	background-color: rgba(117, 15, 15, 0.83);
+	background-clip: content-box;
+}
 
 /* Footer */
 

@@ -35,6 +35,7 @@ $Body .= $Inquiry;
 $Body .= "\n";
 $Body .= "Love, ";
 $Body .= $Name;
+$Body .= "\n";
 
 // send email 
 $success = mail($EmailTo, $Subject, $Body, "From: <$Email>");
