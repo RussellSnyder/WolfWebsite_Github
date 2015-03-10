@@ -42,15 +42,6 @@ margin-bottom: -50px;
     color: #95720f;   
 }
 
-#langChoose {
-
-	
-}
-
-#langChoose a{
-	
-  	
-}
 /* Typography */
 
 h1, h2 {
@@ -151,6 +142,30 @@ header nav ul li a {
 
 header hr{
 	margin-top: -1px
+}
+
+.main {
+	margin-bottom:  10px;
+	text-decoration: underline;
+
+}
+
+header ul{
+	float: left;
+}
+
+header hr {
+	clear: both;
+}
+
+#langChoose ul {
+	float: right;
+	
+}
+
+#langChoose a{
+	
+  	
 }
 
 
