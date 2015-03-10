@@ -10,15 +10,15 @@ $Email = Trim(stripslashes($_POST['Email']));
 $Inquiry = Trim(stripslashes($_POST['Inquiry'])); 
 
 // validation
-//$validationOK=true;
-//if (Trim($Email)=="") $validationOK=false;
-//if (!$validationOK) {
-//  print "<meta http-equiv=\"refresh\" content=\"0;URL=error.html\">";
-//  exit;
-//}
+$validationOK=true;
+if (Trim($Email)=="") $validationOK=false;
+if (!$validationOK) {
+  print "<meta http-equiv=\"refresh\" content=\"0;URL=error.html\">";
+  exit;
+}
 
 // prepare email body text
-$Body = "Wolf Somebody contacted you through your website";
+$Body = "This email is a referral from your website.";
 $Body .= "\n";
 $Body .= "\n";
 $Body .= "Name: ";
