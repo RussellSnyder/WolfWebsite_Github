@@ -216,7 +216,7 @@ header hr {
 	
 	width: 120px;
 	padding-right: auto;	
-	
+	padding-bottom: auto;	
 
 }
 
@@ -230,9 +230,41 @@ header hr {
  	-webkit-align-items: center;
  	
 	width: 750px;
+
+	padding-bottom: 0px;
+	padding-right: 0px;
+ }
+ 
+  .article ul {
+	display: inline-block;
+	
+	list-style: none;
+	
+	padding-left: 15px;
 	
 
- }
+	-moz-box-align: center;
+ 	-webkit-align-items: center;
+ 	
+	width: 750px;
+
+	padding-bottom: 0px;
+	padding-right: 0px;
+
+	  
+  }
+  
+  li.show, li.theatre, li.director {
+	  font-weight: 500;
+  }
+  
+  li.show {
+	  color: #450507;
+  }
+  
+  li.director {
+	  color: #454208;
+  }
 
 /* blog */
 
