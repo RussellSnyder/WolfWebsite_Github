@@ -173,6 +173,67 @@ header hr {
 
 /* words */
 
+/* bio */
+ .section {
+	 margin-left: 10px;
+	 padding-bottom: 20px;
+	 
+	 padding-bottom: 0px;
+
+ }
+ 
+ .section h2 {
+	 text-decoration: overline;
+
+	color: grey;
+
+	 
+	 margin-bottom: 0px;
+	 padding-bottom: 0px;
+ }
+ 
+ .article {
+ 	display: flex;
+ 	align-items: center;
+ 	display: -webkit-flex;
+ 	-webkit-align-items: center;
+	 display: -moz-box;
+	-moz-box-align: center;
+ 	
+ 	margin-bottom: 5px;
+ 	
+ }
+ 
+ 	/* dates */
+.article h4 {
+	font-size: 15px;
+	font-weight: 300;
+	color: grey;
+	
+	margin-left: 15px;
+
+	display: inline-block;
+	
+	width: 120px;
+	padding-right: auto;	
+	
+
+}
+
+ .article p {
+	display: inline-block;
+	
+	padding-left: 15px;
+	
+
+	-moz-box-align: center;
+ 	-webkit-align-items: center;
+ 	
+	width: 750px;
+	
+
+ }
+
 /* blog */
 
 .blogWindow {
