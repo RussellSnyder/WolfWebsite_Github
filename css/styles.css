@@ -414,7 +414,11 @@ iframe{
 
 .worksNav li:hover, .worksNav a:hover {
 	text-decoration: none;
-	text-transform: capitalize;
+	background-color: rgba(159, 169, 159, 0.23);
+	-moz-border-radius: 15px;
+	border-radius: 15px;
+	
+	
 }
 
 
