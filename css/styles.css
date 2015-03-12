@@ -332,8 +332,24 @@ iframe{
 	padding: 15px;
 }
 
+#langWorks{
+	float: right;
+
+	margin-top: -50px;	
+	margin-right: 20px;
+}
+#langWorks ul {
+	list-style: none;		
+}
+
+#langWorks b{
+	font-weight: 200;
+	color: #95720f;     	
+}
+
 .individualwork h1{
 	text-align: center;
+	
 }
 
 
@@ -359,12 +375,45 @@ iframe{
 	margin: 20px;
 }
 
-.individualwork .vis2 {
-	float:right;
-	margin-right: 100px;
+.individualwork .vis2 {	
+	display: inline-block;
+	margin-left: 60px;
+	margin-bottom: 0px;
 }
 
+.worksNav {
+	float:left;
+	display: inline;
+	
+	padding-top: 80px;
+	
+	font-size: 20px;
+}
 
+.worksNav ul{
+	list-style: none;
+	line-height: 30px;
+	
+}
+
+.worksNav li{
+	text-align: justify;
+	margin-top: 7px;
+	margin-right: 3px;
+	
+	padding-right: 10px;
+	padding-left: 7px;
+
+	
+	background-color: rgba(159, 169, 159, 0.13);
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+}
+
+.worksNav li:hover, .worksNav a:hover {
+	text-decoration: none;
+	text-transform: capitalize;
+}
 
 /* contact */
 
