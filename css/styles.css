@@ -433,7 +433,7 @@ iframe{
 	clear: both;
 	
 	margin-left: 70px;
-	width: 900px;
+	width: 940px;
 }
 
 .Podvis img{
@@ -447,22 +447,74 @@ iframe{
 	margin: 10px;
 }
 
+.PodWords h3 {
+	text-align: center;
+	border-top: 1px solid black;
+	border-radius: 50px;
+}
+
+.PodWords {
+	margin-top: -4px;
+	display: inline;
+	width: 700px;
+}
+
 .PodArticleLeft{
+	display: inline-block;
 	
+	padding-bottom: 10px;
+	padding-top: 10px;
 }
 
 .PodArticleLeft .PodPlayer {
+	display: inline;
+
+	margin-left: 30px;
+	margin-right: 20px;
+}
+
+.PodArticleLeft .PodWords {
+	display: inline;
 	
-}
-
-.PodArticleLeft .PodWords{
 	float: right;
+	clear: both;
+	
+	width: 700px;
 }
 
+.PodArticleLeft .PodWords {	
+	float: right;
+	clear: both;
+}
+
+/*8888 Right */
 
 .PodArticleRight{
-	
+	display: block;
+	padding-bottom: 50px;
+
+	clear: both;
 }
+
+.PodArticleRight .PodPlayer {
+	display: inline-block;
+	float: right;
+	
+	margin-right: 20px;
+}
+
+.PodArticleRight .PodWords {
+	display: inline;
+	
+	float: left;
+	clear: right;
+	
+	width: 700px;
+	
+	margin-left: 20px;
+}
+
+
 
 /* contact */
 
