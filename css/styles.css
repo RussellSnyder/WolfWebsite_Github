@@ -417,6 +417,53 @@ iframe{
 	text-transform: capitalize;
 }
 
+
+/* Pod Work stlyes */
+
+.PodGallery {
+	position: relative;
+	clear: both;
+
+	margin-left: 235px;
+	
+	display: block;
+}
+.PodHeader {
+	display: block;
+	clear: both;
+	
+	margin-left: 70px;
+	width: 900px;
+}
+
+.Podvis img{
+	position: static;
+	
+	width: 100px;
+	height: 100px;
+	
+	float: left;
+	
+	margin: 10px;
+}
+
+.PodArticleLeft{
+	
+}
+
+.PodArticleLeft .PodPlayer {
+	
+}
+
+.PodArticleLeft .PodWords{
+	float: right;
+}
+
+
+.PodArticleRight{
+	
+}
+
 /* contact */
 
 #email {
