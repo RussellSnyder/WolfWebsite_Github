@@ -1,0 +1,382 @@
+<!doctype html>
+<!--[if lte IE 8]>     <html class="lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class=""> <!--<![endif]-->
+<head>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+  <meta name="viewport" content="width=device-width" />
+  <meta name="description" content="filter &amp; sort magical layouts" />
+
+  <title>Isotope</title>
+
+  <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Montserrat:400,700" />
+
+  <link rel="stylesheet" ref="..css/styles.css">
+  
+
+    
+ 
+
+</head>
+<body class="index-page" data-page="index">
+
+
+  
+  <div id="hero">
+
+  <div class="primary-content">
+    <div class="demo">
+
+      <div class="ui-group">
+        <h3>Filter</h3>
+        <div class="filters button-group js-radio-button-group">
+          <button class="button is-checked" data-filter="*">all</button>
+          <button class="button" data-filter=".metal">metal</button>
+          <button class="button" data-filter=".transition">transition</button>
+          <button class="button" data-filter="ium">&ndash;ium</button>
+          <button class="button" data-filter=".soundArt">sound art</button>
+          <button class="button" data-filter=".soundDesign">sound design</button>
+          <button class="button" data-filter=".audioDesign">audio design</button>
+          <button class="button" data-filter=".music">music</button>
+          <button class="button" data-filter=".electroacoustic">electroacoustic</button>
+          <button class="button" data-filter=".electronicMusic">electronic music</button>
+          <button class="button" data-filter=".fieldRecording">field recording</button>
+          <button class="button" data-filter=".binaural">binaural</button>
+          <button class="button" data-filter=".teaching">teaching</button>
+          <button class="button" data-filter=".musicEditing">music editing</button>
+          <button class="button" data-filter=".composition">composition</button>
+          <button class="button" data-filter=".audioProduction">audio production</button>
+          
+          
+           
+
+<!--
+<a>all</a>\
+<a>sound art		  </a>\
+<a>sound design		  </a>\
+<a>audio design		  </a>\
+<a>music			  </a>\
+<a>electroacoustic	  </a>\
+<a>electronic music	  </a>\
+<a>field recording	  </a>\
+<a>binaural			  </a>\
+<a>teaching			  </a>\
+<a>music editing	  </a>\
+<a>composition		  </a>\
+<a>audio production	  </a>\
+<a>Klangkunst		  </a>\
+<a>Audiodesign		  </a>\
+<a>Musik			  </a>\
+<a>elektroakustisch	  </a>\
+<a>elektronische Musik</a>\
+<a>Lehre			  </a>\
+<a>Komposition		  </a>
+-->          
+          
+        </div>
+      </div>
+      <div class="ui-group">
+        <h3>Sort</h3>
+        <div class="sort-by button-group js-radio-button-group">
+          <button class="button is-checked" data-sort-by="original-order">original order</button>
+          <button class="button" data-sort-by="name">name</button>
+          <button class="button" data-sort-by="symbol">symbol</button>
+          <button class="button" data-sort-by="number">date</button>
+        </div>
+      </div>
+
+<pre class="code-display"><code>$container.isotope({
+  itemSelector: <span class="string">'.element-item'</span>,
+  layoutMode: <span class="string">'fitRows'</span>,
+  ...
+})</code></pre>
+
+      <div class="isotope">
+
+          <div class="element-item work soundArt soundDesign audioDesign music electroacoustic electronicMusic fieldRecording binaural teaching musicEditing composition audioProduction" data-category="">
+			<a href="works/musicfromairports.html" target="_blank"><img width="270" height="270" src="works/images/musicfromairports.png"></a>
+            <h3 class="name">Music From Airports</h3>   <!-- name will be the title --> 
+            <p class="number">2014</p> <!-- number will be the date -->
+          </div>
+
+          <div class="element-item work soundArt soundDesign audioDesign music electroacoustic electronicMusic fieldRecording binaural teaching musicEditing composition audioProduction" data-category="">
+		  	<a href="works/urbanwasteland.html" target="_blank"><img width="290" height="270" src="works/images/urbanwasteland.png"></a>
+			<h3 class="name">It's Only Urban Wasteland</h3>   <!-- name will be the title --> 
+            <p class="number">2014</p> <!-- number will be the date -->
+          </div>
+
+          <div class="element-item work soundArt soundDesign audioDesign music electroacoustic electronicMusic fieldRecording binaural teaching musicEditing composition audioProduction" data-category="">
+			<a href="works/outdoorbahn.html" target="_blank"><img width="290" height="270" src="works/images/outdoorbahn.png"></a>
+            <h3 class="name">Outdoor Bahn</h3>   <!-- name will be the title --> 
+            <p class="number">2014</p> <!-- number will be the date -->
+          </div>
+
+          <div class="element-item work soundArt soundDesign audioDesign music electroacoustic electronicMusic fieldRecording binaural teaching musicEditing composition audioProduction" data-category="">
+			<a href="works/deathofray.html" target="_blank"><img width="290" height="270" src="works/images/deathofray.png"></a>
+            <h3 class="name"><b>2045 - The Death Of Ray Kurzweil:</b> <br>alternative sound design</h3>
+            <p class="number">2014</p> <!-- number will be the date -->
+          </div>
+
+          <div class="element-item work soundArt soundDesign audioDesign music electroacoustic electronicMusic fieldRecording binaural teaching musicEditing composition audioProduction" data-category="">
+		  	<a href="works/binauralPodcast.html" target="_blank"><img width="290" height="270" src="works/images/underwater.png"></a>
+			<h3 class="name"><b>Underwater</b><br>Binaural Nanocast: Episode 1</h3>
+            <p class="number">2014</p> <!-- number will be the date -->
+          </div>
+
+          <div class="element-item work soundArt soundDesign audioDesign music electroacoustic electronicMusic fieldRecording binaural teaching musicEditing composition audioProduction" data-category="">
+		  	<a href="works/binauralPodcast.html" target="_blank"><img width="290" height="270" src="works/images/driven.png"></a>
+		  	<h3 class="name"><b>Driven</b><br>Binaural Nanocast: Episode 2</h3>
+            <p class="number">2014</p> <!-- number will be the date -->
+          </div>
+
+          <div class="element-item work soundArt soundDesign audioDesign music electroacoustic electronicMusic fieldRecording binaural teaching musicEditing composition audioProduction" data-category="">
+		  	<a href="works/binauralPodcast.html" target="_blank"><img width="290" height="270" src="works/images/eggshells.png"></a>
+		  	<h3 class="name"><b>Eggshellls Seashellsr</b><br>Binaural Nanocast: Episode 3</h3>            			
+		  	<p class="number">2014</p> <!-- number will be the date -->
+          </div>
+
+         <div class="element-item work soundArt soundDesign audioDesign music electroacoustic electronicMusic fieldRecording binaural teaching musicEditing composition audioProduction" data-category="">
+		 	<a href="works/binauralPodcast.html" target="_blank"><img width="290" height="270" src="works/images/frizzle.png"></a>
+		  	<h3 class="name"><b>FrizzleFryyrFelzzirF</b><br>Binaural Nanocast: Episode 4</h3>            			
+		  	<p class="number">2014</p> <!-- number will be the date -->
+          </div>
+
+        <div class="element-item work soundArt soundDesign audioDesign music electroacoustic electronicMusic fieldRecording binaural teaching musicEditing composition audioProduction" data-category="">
+		 	<a href="works/binauralPodcast.html" target="_blank"><img width="290" height="270" src="works/images/tubofwar.png"></a>
+		  	<h3 class="name"><b>Tub Of War</b><br>Binaural Nanocast: Episode 5</h3>            			
+		  	<p class="number">2014</p> <!-- number will be the date -->
+          </div>
+
+        <div class="element-item work soundArt soundDesign audioDesign music electroacoustic electronicMusic fieldRecording binaural teaching musicEditing composition audioProduction" data-category="">
+		 	<a href="works/operationq.html" target="_blank"><img width="300" height="270" src="works/images/OperationQ.png"></a>
+		  	<h3 class="name"><p><b>Operation Q</b></p></h3>            			
+		  	<p class="number">2014</p> <!-- number will be the date -->
+          </div>
+
+        
+          <div class="element-item transition metal " data-category="transition">
+            <h3 class="name">Mercury</h3>
+            <p class="symbol">Hg</p>
+            <p class="number">80</p>
+            <p class="weight">200.59</p>
+          </div>
+        
+          <div class="element-item metalloid " data-category="metalloid">
+            <h3 class="name">Tellurium</h3>
+            <p class="symbol">Te</p>
+            <p class="number">52</p>
+            <p class="weight">127.6</p>
+          </div>
+        
+          <div class="element-item post-transition metal " data-category="post-transition">
+            <h3 class="name">Bismuth</h3>
+            <p class="symbol">Bi</p>
+            <p class="number">83</p>
+            <p class="weight">208.980</p>
+          </div>
+        
+          <div class="element-item post-transition metal " data-category="post-transition">
+            <h3 class="name">Lead</h3>
+            <p class="symbol">Pb</p>
+            <p class="number">82</p>
+            <p class="weight">207.2</p>
+          </div>
+        
+          <div class="element-item transition metal " data-category="transition">
+            <h3 class="name">Gold</h3>
+            <p class="symbol">Au</p>
+            <p class="number">79</p>
+            <p class="weight">196.967</p>
+          </div>
+        
+          <div class="element-item alkali metal " data-category="alkali">
+            <h3 class="name">Potassium</h3>
+            <p class="symbol">K</p>
+            <p class="number">19</p>
+            <p class="weight">39.0983</p>
+          </div>
+        
+          <div class="element-item alkali metal " data-category="alkali">
+            <h3 class="name">Sodium</h3>
+            <p class="symbol">Na</p>
+            <p class="number">11</p>
+            <p class="weight">22.99</p>
+          </div>
+        
+          <div class="element-item transition metal " data-category="transition">
+            <h3 class="name">Cadmium</h3>
+            <p class="symbol">Cd</p>
+            <p class="number">48</p>
+            <p class="weight">112.411</p>
+          </div>
+        
+          <div class="element-item alkaline-earth metal " data-category="alkaline-earth">
+            <h3 class="name">Calcium</h3>
+            <p class="symbol">Ca</p>
+            <p class="number">20</p>
+            <p class="weight">40.078</p>
+          </div>
+        
+          <div class="element-item transition metal " data-category="transition">
+            <h3 class="name">Rhenium</h3>
+            <p class="symbol">Re</p>
+            <p class="number">75</p>
+            <p class="weight">186.207</p>
+          </div>
+        
+          <div class="element-item post-transition metal " data-category="post-transition">
+            <h3 class="name">Thallium</h3>
+            <p class="symbol">Tl</p>
+            <p class="number">81</p>
+            <p class="weight">204.383</p>
+          </div>
+        
+          <div class="element-item metalloid " data-category="metalloid">
+            <h3 class="name">Antimony</h3>
+            <p class="symbol">Sb</p>
+            <p class="number">51</p>
+            <p class="weight">121.76</p>
+          </div>
+        
+          <div class="element-item transition metal " data-category="transition">
+            <h3 class="name">Cobalt</h3>
+            <p class="symbol">Co</p>
+            <p class="number">27</p>
+            <p class="weight">58.933</p>
+          </div>
+        
+          <div class="element-item lanthanoid metal inner-transition " data-category="lanthanoid">
+            <h3 class="name">Ytterbium</h3>
+            <p class="symbol">Yb</p>
+            <p class="number">70</p>
+            <p class="weight">173.054</p>
+          </div>
+        
+          <div class="element-item noble-gas nonmetal " data-category="noble-gas">
+            <h3 class="name">Argon</h3>
+            <p class="symbol">Ar</p>
+            <p class="number">18</p>
+            <p class="weight">39.948</p>
+          </div>
+        
+          <div class="element-item diatomic nonmetal " data-category="diatomic">
+            <h3 class="name">Nitrogen</h3>
+            <p class="symbol">N</p>
+            <p class="number">7</p>
+            <p class="weight">14.007</p>
+          </div>
+        
+          <div class="element-item actinoid metal inner-transition " data-category="actinoid">
+            <h3 class="name">Uranium</h3>
+            <p class="symbol">U</p>
+            <p class="number">92</p>
+            <p class="weight">238.029</p>
+          </div>
+        
+          <div class="element-item actinoid metal inner-transition coolPhoto" data-category="actinoid">
+	          <img src="BenefitGal4.png">
+            <h3 class="name">Plutonium</h3>
+            <p class="symbol">Pu</p>
+            <p class="number">94</p>
+            <p class="weight">(244)</p>
+          </div>
+        
+        
+        
+        
+        
+      </div>
+    </div>
+  </div> 
+</div> 
+
+
+<!-- Isotope does NOT require jQuery. But it does make things easier -->
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+<script>window.jQuery || document.write('<script src="bower_components/jquery/jquery.min.js"><\/script>')</script>
+
+
+  <!-- DEV MODE - including each .js file -->
+  
+    <script src="bower_components/classie/classie.js"></script>
+  
+    <script src="bower_components/eventie/eventie.js"></script>
+  
+    <script src="bower_components/doc-ready/doc-ready.js"></script>
+  
+    <script src="bower_components/get-style-property/get-style-property.js"></script>
+  
+    <script src="bower_components/get-size/get-size.js"></script>
+  
+    <script src="bower_components/eventEmitter/EventEmitter.js"></script>
+  
+    <script src="bower_components/imagesloaded/imagesloaded.js"></script>
+  
+    <script src="bower_components/matches-selector/matches-selector.js"></script>
+  
+    <script src="bower_components/outlayer/item.js"></script>
+  
+    <script src="bower_components/outlayer/outlayer.js"></script>
+  
+    <script src="bower_components/masonry/masonry.js"></script>
+  
+    <script src="bower_components/isotope/js/item.js"></script>
+  
+    <script src="bower_components/isotope/js/layout-mode.js"></script>
+  
+    <script src="bower_components/isotope/js/isotope.js"></script>
+  
+    <script src="bower_components/isotope/js/layout-modes/vertical.js"></script>
+  
+    <script src="bower_components/isotope/js/layout-modes/fit-rows.js"></script>
+  
+    <script src="bower_components/isotope/js/layout-modes/masonry.js"></script>
+  
+    <script src="bower_components/isotope-cells-by-column/cells-by-column.js"></script>
+  
+    <script src="bower_components/isotope-cells-by-row/cells-by-row.js"></script>
+  
+    <script src="bower_components/isotope-fit-columns/fit-columns.js"></script>
+  
+    <script src="bower_components/isotope-horizontal/horizontal.js"></script>
+  
+    <script src="bower_components/isotope-masonry-horizontal/masonry-horizontal.js"></script>
+  
+    <script src="bower_components/packery/js/rect.js"></script>
+  
+    <script src="bower_components/packery/js/packer.js"></script>
+  
+    <script src="bower_components/packery/js/item.js"></script>
+  
+    <script src="bower_components/packery/js/packery.js"></script>
+  
+    <script src="bower_components/isotope-packery/packery-mode.js"></script>
+  
+    <script src="bower_components/jquery-bridget/jquery.bridget.js"></script>
+  
+    <script src="js/vendor/highlight.pack.js"></script>
+  
+    <script src="js/controller.js"></script>
+  
+    <script src="js/pages/appendix.js"></script>
+  
+    <script src="js/pages/events.js"></script>
+  
+    <script src="js/pages/filtering.js"></script>
+  
+    <script src="js/pages/index.js"></script>
+  
+    <script src="js/pages/layout-modes.js"></script>
+  
+    <script src="js/pages/methods.js"></script>
+  
+    <script src="js/pages/sorting.js"></script>
+  
+    <script src="js/pages/vertical.js"></script>
+  
+
+
+
+
+</body>
+</html>
