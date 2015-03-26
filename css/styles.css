@@ -339,6 +339,8 @@ iframe{
 }
 .demo hr {
 	width: 50%;
+	margin-right: 50%;
+	margin-bottom: 10px;
 }
 
 /* individual works */
