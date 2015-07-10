@@ -447,7 +447,69 @@ iframe{
 	
 }
 
+/* Tuned City */
+.TunedVis a {
+	position: relative;
 
+	width: 150px;
+	margin-left: 15px;
+	
+	text-align: center;
+	vertical-align: middle;
+	
+	color: black;
+	
+	padding-top: 40px;
+	padding-bottom: 80px;
+
+	float: left;
+}
+
+.TunedVis h3 {
+	display: block;
+	width: 100px;
+	margin: 0px 25px;
+	
+	font-size: 16px;
+}
+
+.TunedVis a:hover {
+	color: grey;
+}
+
+#currentCity {
+	color: #76551a;
+}
+.TunedGallery {
+	position: relative;
+	clear: both;
+
+	margin-left: 135px;
+	
+	display: block;
+	
+	margin-bottom: 0px;
+}
+
+.TunedVis img{
+	position: static;
+	
+	width: 150px;
+	height: 150px;
+	
+	float: left;
+	
+}
+
+
+
+.TunedHeader {
+	
+	width: 840px;
+	margin-left: auto;
+	margin-right: auto;
+	
+}
 /* Pod Work stlyes */
 
 .PodGallery {
