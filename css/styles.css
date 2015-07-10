@@ -324,6 +324,15 @@ iframe{
 	padding-top: -10px;
 	line-height: 15px;
 }
+.works br {
+	line-height: 110%;
+}
+.works p.number {
+	margin-top: 5px;
+}
+.works .name {
+	margin-top: 5px;
+}
 
 .ui-group {
 	margin: 15px 0px;
