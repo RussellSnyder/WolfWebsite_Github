@@ -360,6 +360,14 @@ iframe{
 	width: 1080px;
 }
 
+.individualwork a {
+	color: grey;
+}
+
+.individualworks a:hover {
+	color: #95720f
+}
+
 #langWorks{
 	float: right;
 
